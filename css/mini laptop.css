@@ -1,0 +1,68 @@
+body
+{
+	background-color:  #18c8f0;
+
+
+}
+#main
+{
+	background-color:  #ea228c;
+	margin: 10%;
+	/*padding: 4%;*/
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.card
+{
+	background-color:  #ecf31e;
+	width: 20%;
+	height: 25%;
+	margin: 4%;
+	padding-bottom: 4%;
+	border-radius: 5%;
+	text-align: center;
+
+
+}
+.details
+{
+	background-color: #ecf31e;
+	border-radius: 5%;
+	margin: 2%;
+	padding: 2%;
+}
+img
+{
+	width: 70%;
+	height: 50%;
+	border-radius: 15%;
+	margin: 4%;
+}
+
+
+
+@media (min-device-width: 781px) and (max-device-width: 992px)
+{
+	.card,.details
+	{
+		width: 100%;
+
+	}
+	.card
+	{
+		display: flex;
+	}
+	.cardchild1,.cardchild2
+	{
+		width: 50%;
+		
+
+	}
+
+}

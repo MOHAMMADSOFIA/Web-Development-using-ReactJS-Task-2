@@ -1,0 +1,33 @@
+body
+{
+	background-color:  #18c8f0;
+
+
+}
+#main
+{
+	background-color:  #ea228c;
+	margin: 10%;
+	/*padding: 4%;*/
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+
+}
+.card
+{
+	background-color:  #ecf31e;
+	width: 25%;
+	margin: 4%;
+	padding-bottom: 4%;
+	border-radius: 5%;
+	text-align: center;
+
+}
+img
+{
+	width: 70%;
+	height: 50%;
+	border-radius: 15%;
+	margin: 4%;
+}
